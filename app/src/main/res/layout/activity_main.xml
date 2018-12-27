@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="#ff4a01" >
+    android:background="#ff4a01">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -12,14 +12,14 @@
         android:paddingLeft="@dimen/activity_horizontal_margin"
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingTop="@dimen/activity_vertical_margin"
-        tools:context=".MainActivity" >
+        tools:context=".MainActivity">
 
         <TextView
             android:id="@+id/tv_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="10dp"
-            android:text="欢迎体验SwitchLayout 1.0测试版本！SwitchLayout是一个强大的Activity切换特效动画库，可以媲美IOS自带视图切换效果！\n作者谭东 QQ 852041173 工作量也不小，感谢支持SwitchLayout！如果你的应用里使用了SwitchLayout，请在关于页面注明下，也可以推荐给你的朋友使用" />
+            android:text="欢迎体验SwitchLayout 1.0测试版本！" />
 
         <Button
             android:id="@+id/btn_ok"
